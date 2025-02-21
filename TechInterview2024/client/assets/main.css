@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 10px;
+    background-color: beige;
+}
+
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  #history-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    overflow-y: auto;
+    padding-left: 20px;
+  }
+
+  #current-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    overflow-y: auto;
+    padding-right: 20px;
+  }
+    
+  .review {
+    border: 1px solid #000000;
+    margin: 5px 0;
+    padding: 5px;
+  }
+  
+  .rating-red {
+    background-color: #ff0303;
+  }
+  .rating-yellow {
+    background-color: #fbff00;
+  }
+  .rating-green {
+    background-color: #00ff37;
+  }
+  
+
+  
